@@ -11,8 +11,9 @@
 *
 * ======================================================= */
 body {
-  font-family: "Space Mono", Arial, serif;
-  font-weight: 400;
+  /* font-family: "Space Mono", Arial, serif; */
+  font-family: "Lexend", Arial, serif;
+  font-weight: 300;
   font-size: 16px;
   line-height: 1.7;
   color: #4d4d4d;
@@ -47,13 +48,13 @@ body {
 }
 
 a {
-  color: #FF9000;
+  color: #009DFF;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #FF9000;
+  color: #009DFF;
   outline: none;
   text-decoration: none;
 }
@@ -64,24 +65,24 @@ p {
 
 h1, h2, h3, h4, h5, h6, figure {
   color: #000;
-  font-family: "Space Mono", Arial, serif;
+  font-family: "Lexend", Arial, serif;
   font-weight: 400;
   margin: 0 0 20px 0;
 }
 
 ::-webkit-selection {
   color: #fff;
-  background: #FF9000;
+  background: #009DFF;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #FF9000;
+  background: #009DFF;
 }
 
 ::selection {
   color: #fff;
-  background: #FF9000;
+  background: #009DFF;
 }
 
 #fh5co-header,
@@ -100,8 +101,9 @@ h1, h2, h3, h4, h5, h6, figure {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(255, 144, 0, 0.9);
-  /* background: rgba(28, 252, 252, 0.6); */
+  /* background: rgba(255, 144, 0, 0.9); */
+  /* background: #009DFF; */
+  background: rgba(0, 157, 255);
 }
 #fh5co-header .display-t,
 .fh5co-cover .display-t {
@@ -223,7 +225,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-features {
-  background: #FF9000;
+  background: #009DFF;
 }
 #fh5co-features h2 {
   color: #fff;
@@ -258,7 +260,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: table-cell;
   vertical-align: middle;
   height: 100px;
-  color: #FF9000 !important;
+  color: #009DFF !important;
 }
 #fh5co-features .feature-left .feature-copy {
   width: 100%;
@@ -309,7 +311,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .fh5co-bg-dark {
   background: #2F3C4F;
-  background: #FF9000;
+  background: #009DFF;
 }
 .fh5co-bg-dark .fh5co-heading h2 {
   color: #fff !important;
@@ -366,7 +368,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: inline-block;
   zoom: 1;
   *display: inline;
-  color: #FF9000;
+  color: #009DFF;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -403,7 +405,7 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 20px;
 }
 #fh5co-about .fh5co-social-icons li a:hover {
-  background: #FF9000;
+  background: #009DFF;
 }
 
 .fh5co-heading {
@@ -421,7 +423,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-heading p {
   font-size: 18px;
   line-height: 1.5;
-  color: #828282;
+  color: #e6e6e6;
 }
 .fh5co-heading span {
   display: block;
@@ -533,7 +535,7 @@ h1, h2, h3, h4, h5, h6, figure {
   top: 40px;
   left: 50%;
   margin-left: -21px;
-  background-color: #FF9000;
+  background-color: #009DFF;
   z-index: 100;
   display: table;
   -webkit-border-radius: 50%;
@@ -802,7 +804,7 @@ h1, h2, h3, h4, h5, h6, figure {
   height: 54px;
   border: none !important;
   background: #fff;
-  color: #FF9000;
+  color: #009DFF;
   font-size: 16px;
   text-transform: uppercase;
   font-weight: 400;
@@ -1112,9 +1114,9 @@ input[type="text"] {
 }
 
 .btn-primary {
-  background: #FF9000;
+  background: #009DFF;
   color: #fff;
-  border: 2px solid #FF9000;
+  border: 2px solid #009DFF;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   background: #ff9b1a !important;
@@ -1122,11 +1124,11 @@ input[type="text"] {
 }
 .btn-primary.btn-outline {
   background: transparent;
-  color: #FF9000;
-  border: 2px solid #FF9000;
+  color: #009DFF;
+  border: 2px solid #009DFF;
 }
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-  background: #FF9000;
+  background: #009DFF;
   color: #fff;
 }
 
@@ -1256,7 +1258,7 @@ input[type="text"] {
 .form-control:active, .form-control:focus {
   outline: none;
   box-shadow: none;
-  border-color: #FF9000;
+  border-color: #009DFF;
 }
 
 .row-pb-md {
